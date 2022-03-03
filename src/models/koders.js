@@ -39,4 +39,4 @@ const koderSchema = new mongoose.Schema({
 
 const model = mongoose.model ('koders', koderSchema)
 
-module.exports = model
+module.exports = model  
