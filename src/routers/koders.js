@@ -1,7 +1,11 @@
 const express = require ('express') // importamos reouter
 const useCasesKoders = require('../useCases/koders')
 
+const auth = require('../middlewares/auth')
+
 const router = express.Router()
+
+router.use(auth)
 
 router.get('/', async (request, response) => { // se ace callback con async
     try {

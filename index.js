@@ -24,4 +24,6 @@ dbConnect()
     DELETE /koders:id
     GET /koders:id
     
+
+    response: token
 */

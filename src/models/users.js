@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const { schema } = require('./koders')
+
 
 const useSchema = new mongoose.Schema({
     name: {
@@ -22,6 +22,7 @@ const useSchema = new mongoose.Schema({
 
 //regex o expresion regular -> Tema enorme pero genial, para validar cualquier tipo de dato.
 
-const model = moongose.model ('users', useSchema)
+const model = mongoose.model ('users', useSchema)
 
 module.exports = model
+
